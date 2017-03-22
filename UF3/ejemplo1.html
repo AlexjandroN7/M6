@@ -1,0 +1,29 @@
+<!-- Escribir un JSON sencillo que define los ingredientes del chocolate: harina azucar mantequilla y cacao, 
+integrarlo en una web que lista los ingredientes en un div de color marron claro-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<script type="text/javascript" src="ejemplo1.js"> </script>
+
+	<meta charset="UTF-8"/>
+	<title>Json de prueba</title>
+</head>
+<div id="cadena" style="background-color: brown;" >
+
+<script> 
+
+var myObj, i, x = "";
+var myObj = {"ing" :["harina", "azucar", "mantequilla", "cacao" ]};
+
+for (i in myObj.ing) {
+    x += myObj.ing[i] + " ";
+}
+
+document.getElementById("cadena").innerHTML = "los ingredientes son: " + x;
+</script>
+
+</div>
+<body>
+	
+</body>
+</html>

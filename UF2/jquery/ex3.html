@@ -1,0 +1,24 @@
+<!-- codificar un formulario con un textbox y un boton al apretar el boton se escribe el texto introducido en <p>-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+</head>
+<body>
+
+<input type="text" id="campo">
+<div id="reflejar"></div>
+<button type="submit" id="boton" value="enviar">
+<script>
+	$(document).ready(function()
+{
+	var cosa = $(#campo).val();
+	$('boton').on('click', function(){$('#nombre').text(cosa)});
+
+});
+</script>
+<div class="nombre"></div>
+</body>
+</html>

@@ -1,0 +1,27 @@
+<!-- tenemos un html con 2 divs(.uno .dos)
+el texto de .uno es "Jugando con text".
+Mediante jquery leemos el texto del primer div y lo escribimos en le segundo.-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>ex1</title>
+	<script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+</head>
+<body>
+	<div class="uno">Jugando con text</div>
+		<div class="dos"></div>
+	<script>
+		$(function(){
+
+			$var = $('.uno').text();
+			$('.dos').text($var);
+
+
+		});
+
+	</script>
+
+</body>
+</html>

@@ -1,0 +1,54 @@
+<!--Tenemos un html con 2 div centrados, uno rojo y el otro azul cuando pasemos el raton por encima del rojo aparecera un menu de 3 elementos en la parte superior de la pagina, cuando hagamos doble click sobre el rojo aparecera otro cuadrado azul dentro de este.-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>divs de cuadrados</title>
+	<script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+
+</head>
+<body>
+	
+	
+
+<script>
+	$(document).ready(function(){
+
+		$('#escondido').hide();
+
+		$("#rojo").click(function(){
+			$("#escondido").show();
+
+		
+	});
+	});
+
+
+
+</script> 
+<script >
+	$(document).ready(function(){
+
+			$('#menu').hide();
+
+		$('#rojo').mouseenter(function(){
+			$("#menu").show();
+		});
+		});
+</script>
+
+<div id="rojo" style="background-color: red; margin-left: 500px; height:200px; width:200px; position: absolute; "></div>
+<div id="escondido" style="background-color: blue; margin-top:50px; margin-left: 565px; height:70px; width:70px; position: absolute; "></div>
+<div id="azul" style="background-color: blue; margin-top: 300px; margin-left: 500px; height:200px; width:200px; position: absolute; "></div>
+	
+	<div id="menu" style="float: right; display: block; ">
+		<ul >
+		<li a >hola</li>
+		<li a>mejrar</li>
+		<li a>peor</li>
+		</ul>
+	</div>
+</body>
+</html>

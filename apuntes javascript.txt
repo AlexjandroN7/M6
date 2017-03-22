@@ -1,0 +1,21 @@
+
+Variables de javascript
+
+-number
+-sring
+-boolean
+-undefined: la variable no existe o no esta inicializada.
+null: la variable tiene un valor vacio.
+
+typeof() devuelve el tipo de variable pero es mejor usar object.prototype.tostring.call(variable)
+
+
+Typeof retorna el tipo de la variable pero es mejor no usarlo
+
+
+onChange: se produce al realizar un cambio de seleccion cambiar el color
+de fondo de la pagina al cambiar la seleccion
+
+onBlur: se produce al abandonar el select(al quitar el foco)
+
+onFocus: se produce al colocar el foco en el select

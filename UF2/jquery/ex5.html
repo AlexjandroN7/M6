@@ -1,0 +1,43 @@
+<!--Definir una tabla con un conjunto de filas y columnas. Definir dos estilos, uno para la sección thead y otro para la sección tbody. Mediante dos botones permitir asociar y desasociar clases.-->
+
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="css/ex5.css">
+<script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+<script type="text/javascript" src="js/ex5.js"></script>
+
+</head>
+
+<body>
+
+<table id="descripcion">
+  <thead>
+    <tr>
+      <th>Month</th>
+      <th>Savings</th>
+    </tr>
+  </thead>
+  <tfoot>
+    <tr>
+      <td>Sum</td>
+      <td>$180</td>
+    </tr>
+  </tfoot>
+  <tbody>
+    <tr>
+      <td>January</td>
+      <td>$100</td>
+    </tr>
+    <tr>
+      <td>February</td>
+      <td>$80</td>
+    </tr>
+  </tbody>
+</table>
+
+<button class="boton1"  onclick="asociarClase()">Asociar</button><button class="boton2" onclick="desasociarClase()">Desasociar</button>
+<p><b>Tip:</b> The thead, tbody, and tfoot elements will not affect the layout of the table by default. However, you can use CSS to style these elements.</p>
+
+</body>
+</html>

@@ -1,0 +1,6 @@
+thead {color:green;}
+
+.recuadro {color:blue;}
+table, th, td {
+    border: 1px solid black;
+}

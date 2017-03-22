@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ejercicio 1</title>
+
+</head>
+
+<body>
+    <div ng-app="menuApp" ng-controller="menuController" >
+        <p>El primero es</p>
+        <ul>
+            <li ng-repeat="f in menu.primero track by $index">
+                {{ f }}
+            </li>
+        </ul>
+        <input type="text" ng-model="cambiarPrimero" />
+        <button ng-click="updatePlato()">Añadir plato</button>
+        <p>el segundo es</p>
+        <ul>
+            <li ng-repeat="f in menu.segundo track by $index" >
+                {{ f }}
+            </li>
+        </ul>
+        <input type="text" ng-model="cambiarSegundo" />
+        <button ng-click="updatePlato()">Añadir plato</button>
+        <p>el postre es</p>
+        <ul>
+            <li ng-repeat="f in menu.postre track by $index">
+                {{ f }}
+            </li>
+        </ul>
+        <input type="text" ng-model="cambiarPostre" />
+        <button ng-click="updatePlato()">Añadir plato</button>
+    </div>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.18/angular.min.js"></script>
+    <script src="js/js/App-menu.js"></script>
+    <script src="js/js/Controller-menu.js"></script>
+</body>
+
+</html>

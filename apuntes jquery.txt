@@ -1,0 +1,16 @@
+el jquery se usa:
+
+1.Encontrar elementos html
+2.Cambiar contenido html
+3.Escuchar lo que quiere hacer el usuario
+4.Animar el contenido de la pagina
+5.hablar de la red para usar contenido
+
+
+DOM: nodos del html.
+
+Cada navegador tiene su DOM y por lo tanto con jquery podemosfuncionar en casi todos los navegadores
+
+$(elemento) = jquery(elemento) Esta es la manera de buscar en el DOM con jquery
+
+jquery(document).ready(function(){<code>}); = se ejecuta cuando la pagina esta cargada. se abrevia $.ready

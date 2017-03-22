@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<header>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ejercicio 1</title>
+
+</header>
+
+<body>
+    <section></section>
+    <script type="text/javascript">
+        var header = document.querySelector('header');
+        var section = document.querySelector('section');
+        var request = new XMLHttpRequest();
+        request.open('GET', 'ejercicio1.json');
+        request.responseType = 'json';
+        request.send();
+        var ex = request.response;
+        request.onload = function titulo(ex) {
+
+
+            var myH1 = document.createElement('h1');
+            for (var i in ex.data.items) {
+                myH1.textContent = myH1.textContent + ex.data.items[i].title + '\n';
+            }
+            header.appendChild(myH1);
+
+            request.onload = function video(ex) {
+
+            for (var x in ex.data.items) {
+                var thumbnail = ex.data.items[x].thumbnail.default;
+                var direccion = ex.data.items[x].player.default;
+                var img1 = document.createElement('img');
+                var enlace = document.createElement('a');
+                img1.src = thumbnail;
+                section.appendChild(enlace);
+                enlace.appendChild(img1);
+                enlace.href = direccion;
+            }
+            }
+
+        }
+    </script>
+</body>
+
+</html>

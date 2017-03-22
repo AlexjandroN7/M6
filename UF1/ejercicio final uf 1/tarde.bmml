@@ -1,0 +1,20 @@
+<mockup version="1.0" skin="sketch" fontFace="Balsamiq Sans" measuredW="1410" measuredH="535" mockupW="1410" mockupH="535">
+  <controls>
+    <control controlID="1" controlTypeID="com.balsamiq.mockups::BrowserWindow" x="0" y="0" w="1410" h="535" measuredW="450" measuredH="400" zOrder="0" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>2848996</color>
+        <text>Horario%20de%20Tarde</text>
+      </controlProperties>
+    </control>
+    <control controlID="2" controlTypeID="com.balsamiq.mockups::DataGrid" x="402" y="144" w="590" h="246" measuredW="494" measuredH="231" zOrder="1" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Hora%20%5E%2C%20Lunes%20%5E%2CMartes%20%5E%2C%20Miercoles%20%5E%2C%20Jueves%20%5E%2C%20Viernes%20%5E%20%0A15%20%3A%2000%20-%2016%20%3A%2000%2C%20asignatura%2Casignatura%2Casignatura%2Casignatura%2Casignatura%0A16%20%3A%2000%20-%2017%3A%2000%2C%20asignatura%2Casignatura%20%2Casignatura%2Casignatura%2Casignatura%0A17%20%3A00%20-%2018%20%3A%2000%2C%20asignatura%2C%20asignatura%2C%20asignatura%2Casignatura%2Casignatura%0A18%20%3A%2000%20-%2019%20%3A%2030%2C%20descanso%2Cdescanso%2Cdescanso%2Cdescanso%2Cdescanso%0A19%20%3A%2030%20-%2020%20%3A%2030%2Casignatura%2Casignatura%2Casignatura%2Casignatura%2Casignatura%0A20%20%3A%2030%20-%2021%20%3A%2030%2Casignatura%2Casignatura%2Casignatura%2Casignatura%2Casignatura%0A21%20%3A%2030%20-%2022%20%3A%2030%2Casignatura%2Casignatura%2Casignatura%2Casignatura%2Casignatura</text>
+      </controlProperties>
+    </control>
+    <control controlID="3" controlTypeID="com.balsamiq.mockups::Label" x="568" y="405" w="-1" h="-1" measuredW="259" measuredH="21" zOrder="2" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Generado%20en%20Ribera%20Baixa%202%20el%20dia%20X%20a%20las%20X</text>
+      </controlProperties>
+    </control>
+  </controls>
+</mockup>

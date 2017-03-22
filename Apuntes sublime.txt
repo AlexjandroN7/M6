@@ -1,0 +1,61 @@
+Cuando escribimos una dirección web, el codigo javascript se copia en el cliente y se ejecuta para convertirse en html desde el cliente,
+en cambio el codigo php se ejecuta directamente desde el servidor.
+
+Extensión .js = javascript
+
+node.js = se ejecuta desde el servidor en contrapartida de los archivos .js convencionales.
+
+Los framework son entornos de programación que facilitan las cosas a los desarrolladores a la hora de programar
+como por ejemplo augular.js o root.js.
+
+La herramienta que usaremos sera sublime, con un plugin llamado installation package, 
+que nos permitira instalar paquete y instalamos emmet de la siguiente manera.
+
+en esta pagina esta el paquete:
+https://packagecontrol.io/installation
+
+Copiamos el codigo en la consola dandole a view > show console y ahi lo copiamos y se instalara, una vez hecho esto 
+hacemos ctrl + shitf + P y le damos a package control: installation package y ahi buscamos Emmet y tambien podemos 
+buscar un tema para personalizar la interfaz de nuestro sublime.
+
+cntr + shift + N = nuevo documento
+
+cntr + D = selecciona todo lo que hemos seleccionado con el mismo nombre en el documento.
+
+cntr + shift + K = borramos una linea entera
+
+cntr + shift + A = selecciona toda una función o paragrafo.
+
+Alt + shift + 1/2/3 = abres ventanas simultaneas para trabajar las 2 al a vez
+
+-----------Funciones-------------
+
+cntr + R = se puede buscar una función y ir directamente a ella
+
+cntr + shift + M = seleccionar el contenido de la función
+
+------------Emmet------------
+
+lo que quieras cntr + E = escribe el esqueleto (HTML:5cntr + E)
+
+div.capita cntr + E = escribe el div con la etiqueta class.
+
+div#container cntr + E = escribe el div con etiqueta ID
+
+div#container>ul.menu cntr + E = escribe el div con etiqueta ID y con el menu dentro
+
+div#container>ul.menuli*5 cntr + E = escribe el div con etiqueta ID y el menu 5 veces.
+
+div+img + cntr + E = el mayor significa consecutivo.
+
+div{kappa} + cntr + E = <div>kappa</div>
+
+Ej 1 = div con 3 parrafos que contenga sublime como texto.
+
+Resultado = div>parrafo{sublime}*3 + cntl + E
+
+<div>
+	<parrafo>sublime</parrafo>
+	<parrafo>sublime</parrafo>
+	<parrafo>sublime</parrafo>
+</div>

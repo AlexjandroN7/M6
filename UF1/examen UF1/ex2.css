@@ -1,0 +1,27 @@
+body {
+	background-color: #01A9DB;
+	margin-left:540px;
+}
+
+}
+.tr {
+	width:130px;
+	border: solid;
+	border-radius: 1px;
+
+}
+
+td 
+	{
+	border-radius: 1px;
+	border:solid;
+	width:130px;
+	height:35px;
+	
+}
+input {
+	height: 25px;
+	background-color: #FF8A0F;
+	border:solid;
+	border-color: #FF8A0F;
+}

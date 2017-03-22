@@ -1,0 +1,34 @@
+body {
+	
+	background-color: #4E05FF ;
+}
+
+}
+.tr {
+	width:500px;
+	border: solid;
+	border-radius: 5px;
+
+}
+
+td 
+	{
+	border-radius: 5px;
+	border:solid;
+	width:500px;
+	height:35px;
+	
+}
+
+#hora {
+	
+	background-color: #DC12FF;
+}
+
+#clase {
+	background-color: #1800FF;
+	}
+
+	#patio {
+	background-color: #E81F53;
+}

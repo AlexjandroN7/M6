@@ -1,0 +1,51 @@
+body {
+	background-color: #E83817;
+	margin-left:220px;
+}
+
+}
+tr {
+	width:130px;
+	border: solid;
+	border-radius: 5px;
+
+}
+
+td 
+	{
+	border-radius: 5px;
+	border:solid;
+	width:130px;
+	height:35px;
+	
+}
+input {
+	height: 25px;
+	background-color: #FF8A0F;
+	border:solid;
+	border-color: #FF8A0F;
+}
+#i {
+	
+	background-color: #FF8A0F;
+
+}
+
+
+
+#clase {
+	background-color: #FF620B;
+	}
+
+#patio {
+	background-color: #FF8A0F;
+
+
+}
+
+
+
+footer {
+margin-left:180px;
+	
+}

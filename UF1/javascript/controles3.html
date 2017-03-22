@@ -1,0 +1,32 @@
+<!--Cargar un nombre y un apellido en sendos text. 
+Al presionar un botón, concatenarlos y mostrarlos en un tercer text 
+(Tener en cuenta que podemos modificar la propiedad value de un objeto 
+TEXT cuando ocurre un evento).-->
+
+<html>
+<head>
+</head>
+<body>
+
+<script type="text/javascript">
+function concatenar(){
+
+var nom=document.getElementById('nombre').value;
+var apel=document.getElementById('apellido').value;
+document.getElementById('resultado').value=nom +' '+ apel;
+	
+}
+</script>
+
+<form>
+Ingresa el nombre:
+<input type="text" id="nombre">
+<br>
+Ingrese el apellido:
+<input type="text" id="apellido">
+<br>
+<input type="button" value="concatenar los datos" onClick="concatenar()">
+<input type="text" id="resultado" disabled>
+</form>
+</body>
+</html>
